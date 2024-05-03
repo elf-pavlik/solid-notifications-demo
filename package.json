@@ -1,0 +1,27 @@
+{
+  "name": "sosy24",
+  "version": "1.0.0",
+  "description": "Demo for Real Time Solid @ Solid Symposium 2024",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx @solid/community-server -c @css:config/file.json -f data/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elf-pavlik/sosy24.git"
+  },
+  "author": "https://elf-pavlik.hackers4peace.net",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elf-pavlik/sosy24/issues"
+  },
+  "homepage": "https://github.com/elf-pavlik/sosy24#readme",
+  "dependencies": {
+    "@solid-notifications/subscription": "^0.1.2",
+    "@solid/community-server": "https://github.com/elf-pavlik/CommunitySolidServer.git#streaming-http",
+    "undici": "^6.15.0"
+  },
+  "volta": {
+    "node": "20.12.2"
+  }
+}
