@@ -18,8 +18,8 @@
   "homepage": "https://github.com/elf-pavlik/sosy24#readme",
   "dependencies": {
     "@solid-notifications/subscription": "^0.1.2",
-    "@solid/community-server": "https://github.com/elf-pavlik/CommunitySolidServer.git#streaming-http",
-    "undici": "^6.15.0"
+    "@solid/community-server": "^7.1.0",
+    "undici": "^6.18.2"
   },
   "volta": {
     "node": "20.12.2"
